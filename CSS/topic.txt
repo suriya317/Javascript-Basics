@@ -1,0 +1,22 @@
+25th August - Sai Mohan Session
+
+▸ Topics:
+
+1. Introduction about CSS
+2. Types of CSS
+3. Priority of CSS
+4. Usage of important keyword
+5. Display properties
+6. Pesudo class selectors
+
+▸ Cascading style sheet
+
+Basically adding color and style to enhance the code to get the better user experience
+
+▸ Types of CSS
+
+-> Inline,
+
+syntax: <tag name style = "property : value"> </tag name>
+
+Style represents - incline CSS

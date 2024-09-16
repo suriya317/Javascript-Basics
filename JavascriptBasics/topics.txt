@@ -1,0 +1,24 @@
+DAY 2 - Javascript Basics
+
+1. Alerts & Prompts & confirm (added with examples in JS)
+
+2. Variables & Data Types
+(Variables - Data ==> which is string, number, boolean (true/false), {object}, [Array])
+I ned a memory store to save this data (so, this is variables)
+
+
+3. Operators - Arithmatic & Logical
+
+
+DAY 3 - Javascript Basics
+
+1. Functions
+2. if else ,
+3. while do while ,
+4. for loop
+
+DAY 4 - Javascript Basics
+
+1. Hoisting & scope
+2. Arrays & Array Methods
+3. Object and JSON iteration

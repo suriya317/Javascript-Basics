@@ -1,0 +1,12 @@
+//SAI MOHAN sir class - 24th August
+
+task
+
+1. create a html form with the below fields
+2. Firstname
+3. Middlename
+4. Lastname
+5. Email
+6. password
+7. Upload a file
+8. Deploy it in netlify
