@@ -1,49 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="base-container">
-        <!-- semantic (understandability)
+      <!-- semantic (understandability)
         <header></header>
         <footer></footer>
         <main></main>
         <aside></aside> -->
 
-        <header>
-            <nav>
-                <button>Home</button>
-                <button>About me</button>
-                <button>Skills</button>
-                <button>Contact</button>
-            </nav>
-        </header>
-        <main>
-            <section>
-                <div>
-                    <h1>Home</h1>
-                </div>
-            </section>
-            <section>
-                <div>
-                    <h1>About me</h1>
-                </div>
-            </section>
-            <section>
-                <div>
-                    <h1>Skills<h1>
-                </div>
-            </section>
-            <section>
-                <div>
-                    <h1>Contact</h1>
-                </div>
-            </section>
-        </main>
+      <header>
+        <nav>
+          <a href="#home">
+            <button>Home</button>
+          </a>
+          <a href="#about-me">
+            <button>About me</button>
+          </a>
+          <a href="#skills">
+            <button>Skills</button>
+          </a>
+          <a href="#contact">
+            <button>Contact</button>
+          </a>
+        </nav>
+      </header>
+      <main>
+        <section id="Home">
+          <div class="main-section">
+            <div class="top-item">SURIYA TAMILVANAN</div>
+            <div class="bottom-item">
+              Full stack Developer, Senior BDE
+              <div class="top-set">
+                <button>
+                  <img
+                    class="home-image"
+                    src="https://static.vecteezy.com/system/resources/previews/018/910/721/non_2x/linkedin-logo-linkedin-symbol-linkedin-icon-free-free-vector.jpg"
+                    alt="Linkedin Image"
+                  />
+                  Linkedin
+                </button>
+                <button>
+                  <img
+                    class="home-image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbqj9Ii13d6hx5a9kyLnC5A8A96LDSaSZv_w&s"
+                    alt="Github Image"
+                  />
+                  Github
+                </button>
+                <button>
+                  <img
+                    class="home-image"
+                    src="https://image.similarpng.com/very-thumbnail/2020/05/Solutions-website-logo-png.png"
+                    alt="Website Image"
+                  />
+                  Website
+                </button>
+              </div>
+              <div class="bottom-set">
+                <button>Download Resume</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="About me">
+          <div class="about-section">
+            <div class="image-content">
+              <img
+                class="about-image"
+                src="https://t4.ftcdn.net/jpg/02/99/68/07/360_F_299680759_cQ3nuFp2hip9YQUdUH0CTZMBxYHrXLrz.jpg"
+                alt="World Image"
+              />
+            </div>
+            <div class="desc-content">
+              The world is a complex and interconnected tapestry of diverse
+              cultures, histories, and ecosystems, shaped by the interactions of
+              humanity over millennia. From the early agricultural societies
+              that laid the foundations for civilization to the monumental
+              achievements of empires, the spread of religions, and the
+              tumultuous events of the modern era, global history reflects a
+              dynamic interplay of conflict, cooperation, and cultural exchange.
+              In the contemporary age, issues such as globalization, climate
+              change, and social justice continue to redefine human
+              relationships and the environment, underscoring the shared
+              challenges and opportunities facing our increasingly
+              interconnected planet.
+            </div>
+          </div>
+        </section>
+        <section id="skills">
+          <div class="skills-section">
+            <div class="skills-items">
+              <img
+                class="skills-image"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+                alt="JAVASCRIPT Image"
+              />
+              <div class="Skills-word">
+                <h1>JAVASCRIPT</h1>
+              </div>
+            </div>
+
+            <div class="skills-items">
+              <img
+                class="skills-image"
+                src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_plain_wordmark_logo_icon_146423.png"
+                alt="MongoDB Image"
+              />
+              <div class="Skills-word">
+                <h1>MongoDB</h1>
+              </div>
+            </div>
+
+            <div class="skills-items">
+              <img
+                class="skills-image"
+                src="https://nordicapis.com/wp-content/uploads/A-Short-Guide-What-Types-of-Apps-Can-Be-Built-With-React.png"
+                alt="React Image"
+              />
+              <div class="Skills-word">
+                <h1>React</h1>
+              </div>
+            </div>
+
+            <div class="skills-items">
+              <img
+                class="skills-image"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOIGFpvC7ZPopZPEBpa9rfukaW3ZQtgvMEFA&s"
+                alt="NodeJS Image"
+              />
+              <div class="Skills-word">
+                <h1>NodeJS</h1>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="Contact">
+          <div>
+            <h1>Contact</h1>
+          </div>
+        </section>
+      </main>
     </div>
-</body>
+  </body>
 </html>
