@@ -1,0 +1,148 @@
+Positioning - Relative and Absolute
+/* .box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 100px;
+}
+.box1 {
+  background-color: lightblue;
+}
+.box2 {
+  background-color: lightgreen;
+  position: relative;
+  left: 50px;
+  top: 50px;
+
+  position: absolute;
+  top: 300px;
+  left: 55px;
+}
+.box3 {
+  background-color: lightcoral;
+} */
+
+Flexbox and Media queries,
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+.menu > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu > li {
+  list-style-type: none;
+  border: 0.5px solid lightgray;
+  padding: 10px 25px;
+  background-color: purple;
+}
+
+.head {
+  margin-top: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+  justify-content: center; center horizontally
+  align-items: center; center vertically
+  gap: 4px;
+}
+
+.home {
+  flex-grow: 2;
+  order: 4;
+}
+
+.about {
+  flex-grow: 1;
+  order: 1;
+}
+
+.services {
+  flex-grow: 1;
+  order: 5;
+}
+
+.contact {
+  flex-grow: 1;
+  order: 2;
+}
+
+.feedback {
+  flex-grow: 1;
+  order: 3;
+}
+
+@media screen and (max-width: 991px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #menuIcon {
+    display: none;
+  }
+}
+
+body {
+  background-image: url("./deer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+Z-index,
+/* .image {
+  opacity: 0.5;
+  display: block;
+  z-index: 200;
+  position: absolute;
+}
+
+.desc {
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  font-size: 24px;
+  color: purple;
+  z-index: 100;
+} */
+
+Grid Layout,
+* {
+  background-color: blue;
+}
+
+.box {
+  background-color: darkgrey;
+  margin: 1px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid black;
+  line-height: 1.5;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 75px 630px 75px;
+}
+
+.header {
+  grid-column: 1/4;
+}
+
+.menu {
+  grid-row: 2/4;
+}
+
+.footer {
+  grid-column: 2/4;
+}
